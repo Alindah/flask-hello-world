@@ -22,6 +22,7 @@ app = Flask(__name__)		# __name__ can change depending on whether the app
 @app.route('/')				# route() tells Flask what URL should trigger our func.
 							# '/' is the root directory. You can try '/test' and
 							# visit http://127.0.0.1:5000/test to see this.
+							# More info: https://flask.palletsprojects.com/en/1.1.x/quickstart/#routing
 def hello_world():
 	return "Hello World"
 
