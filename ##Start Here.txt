@@ -1,0 +1,7 @@
+So you wanna develop web apps, huh? Here are the steps to take:
+
+1. Check #Setup.txt to set up your environment and install necessities.
+
+2. Create a python file and import Flask. Export the app and run it. (Refer to Hello World/hello_world.py for instructions.)
+
+3. Deploy on appropriate server for production: https://flask.palletsprojects.com/en/1.1.x/deploying/
