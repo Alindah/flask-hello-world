@@ -1,0 +1,53 @@
+File Structure
+==============
+https://izziswift.com/common-folder-file-structure-in-flask-app/
+
+
+Conda Virtual Environment
+=========================
+- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+- https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#deactivating-an-environment
+- https://exitcondition.com/conda-virtual-environments/
+
+*** This must be done for each project! ***
+
+Setting up VE with Anaconda:
+>>> conda create --name env_name python=3.9
+>>> conda activate env_name
+
+If python needs to be installed:
+>>> python -m pip --version	// To check version of python installed
+>>> which python		// To check where python is installed
+
+Installing other packages:
+>>> pip install <package_name>
+
+Deactivating the env:
+>>> conda deactivate
+
+Removing the env:
+>>> conda remove --name env_name --all
+
+
+Setting Up Using venv (iOS)
+===========================
+((OLD! Use conda instead))
+https://flask.palletsprojects.com/en/1.1.x/installation/
+
+*** This must be done for each project! ***
+
+1. Make a virtual environment for your project.
+- Create a project folder, cd into it, and install the environment within it using the following:
+>>> python3 -m venv venv
+- This will create a folder called "venv" within using the venv package.
+
+2. Activate the environment. (Make sure to include the dot in the beginning!)
+>>> . venv/bin/activate
+(alternative) >>> source venv.bin/activate
+- The (venv) in the terminal indicates we are within the environment.
+- Btw, the dot is a command "sources" the file, which allows the file (activate in this case) to make changes to the environment.
+
+3. Install Flask within the project folder while within the environment.
+>>> pip install Flask
+
+4. This should be all you need to do. Follow the following link to create your first flask program: https://flask.palletsprojects.com/en/1.1.x/quickstart/
