@@ -9,7 +9,7 @@ Conda Virtual Environment
 - https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#deactivating-an-environment
 - https://exitcondition.com/conda-virtual-environments/
 
-*** This must be done for each project! ***
+*** You can reuse environments you create ***
 
 Setting up VE with Anaconda:
 >>> conda create --name env_name python=3.9
